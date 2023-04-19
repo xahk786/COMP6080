@@ -1,0 +1,49 @@
+#signin_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0 0 30px 0 rgb(136, 133, 133);
+    border: solid 1px transparent rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#questionForm_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0 0 30px 0 rgb(136, 133, 133);
+    border: solid 1px transparent rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#sessionLaunch_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 30px 0 rgb(136, 133, 133);
+    border: solid 1px transparent rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.general_button {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#errMsg {
+    text-align: center;
+    color: #e4093c;
+    padding-top: 10px;
+}
+
+#signUp{
+    text-align: center;
+    padding-top: 20px;
+}
+
