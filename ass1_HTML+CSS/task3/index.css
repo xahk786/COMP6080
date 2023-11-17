@@ -1,0 +1,252 @@
+.flexPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(157, 147, 214); */
+    /* justify-content: center; */
+    /* min-width: 419px;
+    max-width: 1894px;
+    min-height: 1470px;
+    max-height: 3195px; */
+
+} 
+
+.title {
+    text-align: center;
+    color: #000037;  
+    font-size: 58px;
+    width: 65%;
+}
+
+
+.deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    width: 65%;
+    margin-bottom: 5%;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+
+.ad1 {
+    width: 65%;
+    height: 200px;
+    background-color: #FFFF70;
+    padding-left: 30px;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+}    
+
+.chunk1{
+    width: 55%;
+}
+
+.chunk2{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.apple {
+    width: 250px;
+    height: 70px;
+    margin-top: 10%;
+    
+}
+
+.google {
+    width: 250px;
+    height: 70px;
+    margin-top: 13%;
+   
+}
+
+
+
+.adHeading {
+    color: #000037;
+    font-size: 43px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.adDescrBig{
+    color: #000037;
+    font-size: 27px;
+    margin-top: 8px;
+    width: 700px;
+}
+
+.adDescrSmall{
+    color: #000037;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.unswRox {
+    background-color: #8E42FF;
+    border-radius: 9px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+}
+
+.unswRox:hover {
+    opacity: 0.7;
+}
+
+.ad1:hover {
+    opacity: 0.5;
+}
+
+.floatApple {
+    float:right;
+    margin-top: -80px;
+    margin-right: 10px;
+    width: 250px;
+    height: 70px
+    
+}
+
+.floatGoogle {
+    float:right;
+    margin-top: -60px;
+    margin-right: 35px;
+    width: 250px;
+    height: 70px
+    
+}
+
+
+
+.cardText {
+    color: #000037;
+    text-align: center;
+} 
+
+@media all and (min-width: 419px ) {
+    .deck {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .ad1 {
+        flex-direction: column;
+        text-align: center;
+        width: 629.59px;
+        height: 400px
+    }
+
+    .adHeading {
+        width: 629.59px;
+    }
+
+    .adDescrBig {
+        width: 629.59px;
+    }
+
+    .adDescrSmall {
+        width: 629.59px;
+    }
+
+    .chunk1{
+        width: 629.59px;
+    }
+
+    .chunk2 {
+        width: 629.59px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .apple {
+        margin-top: 40px;
+    }
+
+    .google {
+        margin-top: 20px;
+
+    }
+
+}
+
+
+@media all and (min-width: 1894px ) {
+    .deck {
+        flex-flow: row wrap;
+    }
+
+    .ad1 {
+        width: 65%;
+        height: 200px;
+        background-color: #FFFF70;
+        padding-left: 30px;
+        padding-top: 13px;
+        display: flex;
+        flex-direction: row;
+    }    
+    
+    .chunk1{
+        width: 55%;
+    }
+    
+    .chunk2{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    .apple {
+        width: 250px;
+        height: 70px;
+        margin-top: 10%;
+        
+    }
+    
+    .google {
+        width: 250px;
+        height: 70px;
+        margin-top: 13%;
+       
+    }
+    
+    .adHeading {
+        color: #000037;
+        font-size: 43px;
+        margin: 0px 0px 0px 0px;
+        
+    }
+    
+    .adDescrBig{
+        color: #000037;
+        font-size: 27px;
+        margin-top: 8px;
+        width: 700px;
+    }
+    
+    .adDescrSmall{
+        color: #000037;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+}
+

@@ -1,0 +1,68 @@
+.flexIntro{
+    display: flex;
+}
+
+.latText{
+    margin-top: 12px;
+    margin-left: 50px;
+    width: 815px;
+    font-family: Arial;
+    word-spacing: 4px;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.box {
+    width: 318px;
+    height: 162px;
+    margin-left: 12px;
+    background-color: rgb(209, 206, 206);
+
+}
+
+#boxTitle {
+    margin: 20px 0px 15px 18px;
+    font-family: Arial;
+    font-size: 28px;
+}
+
+.boxText{
+    margin-left: 18px;
+    margin-top: 8px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.scene {
+    width: 251px;
+    height: 45px;
+    background-color: rgb(224, 174, 8);
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#sceneTitle {
+    font-family: Arial;
+    margin: 5px 0px 0px 0px;
+}
+
+#headings {
+    margin-left: 50px;
+    margin-top: 28px;
+    font-family: Arial;
+    font-size: 26px;
+}
+
+.infoText {
+    margin-left: 50px;
+    font-family: Arial;
+    word-spacing: 4px;
+    font-size: 13.2px;
+    line-height: 27px;
+    margin-top:17px;
+    
+}
+
