@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>22T3_ass2</title>
+</head>
+
+<body>
+    <form name="user_form">
+        Street Name <input type="text" name="street"><br>
+        Suburb <input type="text" name="suburb"><br>
+        Postcode <input type="text" name="postcode"><br>
+        Date of Birth <input type="text" name="dob"><br>
+        Building Type
+            <select name="building">
+                <option value="apartment">Apartment</option>
+                <option value="house">House</option>
+            </select><br>
+        Features
+            <input type="checkbox"  name="f1" value="heating">
+            <label for="f1"> Heating</label><br>
+            <input type="checkbox" name="f2" value="airConditioning">
+            <label for="f2"> AirConditioning</label><br>
+            <input type="checkbox"  name="f3" value="pool">
+            <label for="f3"> Pool</label><br>
+            <input type="checkbox"  name="f4" value="sandpit">
+            <label for="f4"> Sandpit</label><br>
+        <button name="select" >Select All</button><br>
+        <button name="reset">Reset</button> <br>
+        <textarea name="output" rows="10" cols="50"></textarea>
+    </form>
+    <script src="form.js"></script>
+
+</body>
+
+
+</html>
